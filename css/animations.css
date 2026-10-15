@@ -1,0 +1,55 @@
+.blur-one{
+
+    animation:floatOne 10s ease-in-out infinite;
+
+}
+
+.blur-two{
+
+    animation:floatTwo 14s ease-in-out infinite;
+
+}
+
+@keyframes floatOne{
+
+    0%{
+
+        transform:translate(0,0);
+
+    }
+
+    50%{
+
+        transform:translate(80px,40px);
+
+    }
+
+    100%{
+
+        transform:translate(0,0);
+
+    }
+
+}
+
+@keyframes floatTwo{
+
+    0%{
+
+        transform:translate(0,0);
+
+    }
+
+    50%{
+
+        transform:translate(-60px,-40px);
+
+    }
+
+    100%{
+
+        transform:translate(0,0);
+
+    }
+
+}

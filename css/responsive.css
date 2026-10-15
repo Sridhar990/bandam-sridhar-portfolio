@@ -1,0 +1,83 @@
+@media (max-width:900px){
+
+    .about-wrapper{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .stats{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media (max-width:600px){
+
+    .highlights{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .stats{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+@media(max-width:900px){
+
+    .skills-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+
+@media(max-width:900px){
+
+    .project-header{
+
+        flex-direction:column;
+
+    }
+
+    .project-features{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+@media(max-width:900px){
+
+    .progress-grid{
+    
+    grid-template-columns:1fr;
+    
+    }
+    
+    }
+
+
+
+@media(max-width:900px){
+
+    .contact-grid{
+        
+    grid-template-columns:1fr;
+        
+    }
+        
+    }
