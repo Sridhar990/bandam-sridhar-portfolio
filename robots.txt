@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sridharbandam.site/sitemap.xml
